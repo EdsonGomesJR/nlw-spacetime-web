@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: red;
+  --foreground: black;
+}
+[data-theme="dark"] {
+  --background: red;
+  --foreground: white;
+  background-color: var(--background);
+}
+
+[theme="dark"] {
+  --background: red;
+}
